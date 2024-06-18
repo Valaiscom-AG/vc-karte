@@ -92,7 +92,21 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Informationen</h1>
+          <h1 class="modal-title fs-5 me-3" id="exampleModalLabel">Informationen</h1>
+          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-primary">Phase 1</button>
+            <button type="button" class="btn btn-primary">Phase 2</button>
+          
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Phase 3</a></li>
+                <li><a class="dropdown-item" href="#">Phase 4</a></li>
+              </ul>
+            </div>
+          </div>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body w-100">
